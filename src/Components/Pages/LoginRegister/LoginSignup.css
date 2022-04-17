@@ -14,7 +14,7 @@
   padding: 50px;
 
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(46, 46, 46, 0.418);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -35,7 +35,10 @@ input {
   outline: none;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
-  margin-bottom: 20px;
+  
+}
+label{
+  margin-top: 20px;
 }
 .Log_in {
   background: rgba(0, 0, 0, 0.5);
@@ -54,6 +57,13 @@ input {
 }
 .social-login:hover {
   background: #0b5ed7;
+}
+.hasError{
+  border-bottom: 1px solid #ff2525 !important;
+}
+.errorText{
+  color: #ff2525;
+  font-weight: bold;
 }
 
 @keyframes spinner {
