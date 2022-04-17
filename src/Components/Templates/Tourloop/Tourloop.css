@@ -1,0 +1,70 @@
+.tour_loop {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  overflow: hidden;
+}
+.tour_loop .tour_image {
+  margin: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tour_image img {
+  transition: 0.5s;
+  border-radius: 8px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.tour_loop img:hover {
+  transform: scale(1.4);
+}
+.tour_loop .info {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  position: absolute;
+  top: 20px;
+  padding: 5px 15px;
+}
+.tour_loop .country {
+  right: 20px;
+}
+.tour_loop .rating {
+  left: 20px;
+}
+.tour_loop .options{
+    margin-top: -55px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.divide{
+    width: 1px;
+    height: 20px;
+    background: white;
+    border-right: 1px solid #ffffff;
+}
+.book_now{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

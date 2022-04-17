@@ -1,0 +1,54 @@
+[
+    {
+        "id": 101,
+        "name": "Cox's Bazar",
+        "location" : "Chitagong",
+        "country" : "Bangladesh",
+        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
+        "Price" : 200,
+        "rating":4.9,
+        "duration": "3days 2 night",
+        "image": "https://res.cloudinary.com/tusar/image/upload/v1650157222/travel/coxs-bazar-1_lyuxh5.webp"
+    },
+    {
+        "id": 102,
+        "name": "Sreemangal",
+        "location" : "Chitagong",
+        "country" : "Bangladesh",
+        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
+        "Price" : 200,
+        "duration": "3days 2 night",
+        "image": "https://res.cloudinary.com/tusar/image/upload/v1650157221/travel/slider-sreemangal_cvp9uj.webp"
+    },
+    {
+        "id": 103,
+        "name": "Seint Martin",
+        "location" : "Chitagong",
+        "country" : "Bangladesh",
+        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
+        "Price" : 200,
+        "duration": "3days 2 night",
+        "image": "https://res.cloudinary.com/tusar/image/upload/v1650157221/travel/st-martin_rpnjrc.webp"
+    },
+    {
+        "id": 104,
+        "name": "Sunderban",
+        "location" : "Chitagong",
+        "country" : "Bangladesh",
+        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
+        "Price" : 200,
+        "duration": "3days 2 night",
+        "image": "https://res.cloudinary.com/tusar/image/upload/v1650157222/travel/slider-sunderban_ybd01j.webp"
+    },
+    {
+        "id": 105,
+        "name": "Bali",
+        "location" : "Chitagong",
+        "country" : "indonesia",
+        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
+        "Price" : 200,
+        "duration": "3days 2 night",
+        "image": "https://res.cloudinary.com/tusar/image/upload/v1650157223/travel/bali_p2k5ar.webp"
+    }
+
+]
