@@ -1,6 +1,6 @@
 # Touraholic - Tour Planners
-Discription: Tour planning and package service provider. 
-Deployment link: Firebase Hosting
+#### Discription: Tour planning and package service provider. 
+#### Deployment link: Firebase Hosting
 
 
 ## Features
