@@ -49,6 +49,16 @@
         "Price" : 200,
         "duration": "3days 2 night",
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157223/travel/bali_p2k5ar.webp"
+    },
+    {
+        "id": 106,
+        "name": "Nilgiri",
+        "location" : "Chitagong",
+        "country" : "indonesia",
+        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
+        "Price" : 200,
+        "duration": "3days 2 night",
+        "image": "https://res.cloudinary.com/tusar/image/upload/v1650157222/travel/nilgiri_wtnzup.webp"
     }
 
 ]
