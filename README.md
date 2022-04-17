@@ -1,3 +1,12 @@
+# Touraholic - Tour Planners
+Discription: Tour planning and package service provider. 
+Deployment link: Firebase Hosting
+
+
+## Features
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
