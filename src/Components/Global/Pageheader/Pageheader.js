@@ -7,7 +7,7 @@ const Pageheader = (props) => {
         <div className='page-header py-5'>
                 <div className="container page-title text-center">
                     <h2 className='title'>{title}</h2>
-                    <p className='subtitle'>{subtitle}</p>
+                    <p className='sub-title'>{subtitle}</p>
                 </div>
         </div>
     );

@@ -13,7 +13,7 @@ const Login = () => {
                 <Container >
                     <Row>
                         <Col md={7} className="d-flex align-items-center"> 
-                            <h2 className='page-title'>Login to your Account</h2>
+                            <h2 className='title'>Login to your Account</h2>
                         
                         </Col>
                         <Col md={5}>

@@ -5,11 +5,13 @@ import Footer from './Components/Global/Footer/Footer';
 import Header from './Components/Global/Header/Header';
 import About from './Components/Pages/About/About';
 import Blog from './Components/Pages/Blog/Blog';
+import Checkout from './Components/Pages/Checkout/Checkout';
 import Home from './Components/Pages/Home/Home';
 import Login from './Components/Pages/LoginRegister/Login/Login';
 import Register from './Components/Pages/LoginRegister/Register/Register';
 import Notfound from './Components/Pages/Notfound/Notfound';
 import TourPackages from './Components/Pages/TourPackages/TourPackages';
+import RequireAuth from './Components/utilities/RequireAuth';
 
 function App() {
   return (
@@ -27,7 +29,14 @@ function App() {
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/register' element={<Register></Register>}></Route>
 
-          
+    
+
+          <Route path='/checkout/:id' element={
+              <RequireAuth>
+                <Checkout></Checkout>
+              </RequireAuth>
+
+          }></Route>
 
 
 

@@ -1,10 +1,17 @@
 import React from 'react';
 import { Button, Col } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaStar , FaClock, FaUsers } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 import "./Tourloop.css"
 const Tourloop = (props) => {
     const { id, name, image, rating, country, short_disc } = props.data;
+    const navigate = useNavigate();
+    const handleCheckout = (tourid) =>{
+            // console.log(tourid);
+            const url = '/checkout/'+tourid;
+            navigate(url);
+    }
 
     return (
         <Col md={4} id={"loop_" + id}>
@@ -27,7 +34,7 @@ const Tourloop = (props) => {
                     <h3 className='py-3'>{name}</h3>
                     <p> {short_disc }</p>
 
-                    <Button className='book_now col-6 my-3'>Book Now</Button>
+                    <Button onClick={() => handleCheckout(id)} className='book_now col-6 my-3'>Book Now</Button>
                 </div>
             </div>
         </Col>
