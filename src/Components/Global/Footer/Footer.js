@@ -9,7 +9,7 @@ const Footer = () => {
                 <Row className='py-5'>
                     <Col md={4}>
                         <div className="footer-container py-2">
-                            <h2>LOGO</h2>
+                            <h2>  <img width={250} src="https://res.cloudinary.com/tusar/image/upload/v1650267511/travel/touraholic_y37ysx.png" alt="" /></h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quaerat, aperiam similique
                                 nisi vitae ratione aliquam dolore sapiente tenetur perspiciatis?</p>
                         </div>

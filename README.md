@@ -1,9 +1,29 @@
 # Touraholic - Tour Planners
 #### Discription: Tour planning and package service provider. 
-#### Deployment link: Firebase Hosting
+#### Deployment: [Firebase Hosting](https://touraholic-4138d.web.app/)
+#### LIVE PREVIEW: [https://touraholic-4138d.web.app/](https://touraholic-4138d.web.app/)
+
 
 
 ## Features
+
+- Firebase Authentication
+- Email password and google login
+- Private Route
+- Bootstrap Slider
+- And many more features of react and react router
+
+
+## Libraries / Packages in use
+
+
+- react-bootstrap: ^2.2.3
+- react-dom: ^18.0.0",
+- react-firebase-hooks: ^5.0.3
+- react-icons: ^4.3.1
+- react-router-dom: 6
+- react-toastify: ^8.2.0
+- firebase hosting
 
 
 
