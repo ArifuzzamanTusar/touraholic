@@ -3,6 +3,7 @@ import { FaFacebookF, FaGoogle } from 'react-icons/fa';
 import {useSignInWithGoogle} from 'react-firebase-hooks/auth'
 import auth from '../../../../firebase.init';
 import { useLocation, useNavigate } from 'react-router-dom';
+
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
@@ -13,7 +14,7 @@ const SocialLogin = () => {
     if (error) {
         errormgs=
           <div>
-            <p>Error: {error.message}</p>
+            <p className='bg-danger text-white p-3'>Error: {error.message}</p>
           </div>;
           document.getElementById('google').style.animation="";
         

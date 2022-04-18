@@ -7,6 +7,7 @@ import About from './Components/Pages/About/About';
 import Blog from './Components/Pages/Blog/Blog';
 import Checkout from './Components/Pages/Checkout/Checkout';
 import Home from './Components/Pages/Home/Home';
+import ForgotPassword from './Components/Pages/LoginRegister/Forgotpassword/ForgotPassword';
 import Login from './Components/Pages/LoginRegister/Login/Login';
 import Register from './Components/Pages/LoginRegister/Register/Register';
 import Notfound from './Components/Pages/Notfound/Notfound';
@@ -28,6 +29,7 @@ function App() {
 
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/register' element={<Register></Register>}></Route>
+          <Route path='/reset-password' element={<ForgotPassword></ForgotPassword>}></Route>
 
     
 

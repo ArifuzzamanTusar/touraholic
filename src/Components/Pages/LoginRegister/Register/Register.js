@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
 import auth from '../../../../firebase.init';
+import Loading from '../../../utilities/Loading';
 
 import "../LoginSignup.css";
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
-    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+    const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
 
@@ -83,8 +85,14 @@ const Register = () => {
     if (user) {
         navigate(from, { replace: true })
     }
-    if (updating) {
-        return ("loading...");
+    if (updating || loading) {
+        return (<Loading></Loading>);
+    }
+    if (error ) {
+            toast.error(error.message);
+    }
+    if (updateError) {
+        toast.error(updateError.message)
     }
 
     // ----------- 
@@ -98,7 +106,8 @@ const Register = () => {
         }
         else {
             setRegError(
-                <small className='errorText'>Please Check errors {updateError}</small>
+                // <small className='errorText'>Please Check errors {updateError}</small>
+                <p className='bg-danger text-white p-3'>Please Check Errors</p>
             )
         }
 
@@ -149,6 +158,17 @@ const Register = () => {
                             </div>
                         </Col>
                     </Row>
+                    <ToastContainer
+                        position="bottom-right"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                    />
                 </Container>
             </div>
 
