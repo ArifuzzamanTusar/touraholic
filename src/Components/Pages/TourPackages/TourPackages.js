@@ -11,7 +11,7 @@ const TourPackages = () => {
         <div id='page-service'>
             <Pageheader title={"Our Tour Packages"} subtitle={"Grab Your Plan and fly"} ></Pageheader>
             <Container>
-                <div className="all-tours">
+                <div className="all-tours py-5">
 
                     <Row>
 

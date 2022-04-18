@@ -13,10 +13,12 @@ const Header = () => {
         signOut(auth);
     }
     return (
-        <header>
+        <header id='header'>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container className='py-2'>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Container className=''>
+                    <Navbar.Brand > 
+                        <Customlink to={'/'}> <img width={150} src='https://res.cloudinary.com/tusar/image/upload/v1650267511/travel/touraholic_y37ysx.png' alt="" /> </Customlink>
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
