@@ -4,6 +4,7 @@ import useTour from '../../../Hooks/useTours';
 import Tourloop from '../../Templates/Tourloop/Tourloop';
 import HeroSlider from './HeroSlider';
 import { Link } from "react-router-dom";
+import Gallery from './Gallery';
 
 const Home = () => {
     const [tour] = useTour();
@@ -32,6 +33,7 @@ const Home = () => {
 
                 </Container>
             </div>
+            <Gallery></Gallery>
 
         </div>
     );
