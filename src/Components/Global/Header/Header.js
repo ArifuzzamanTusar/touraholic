@@ -13,8 +13,8 @@ const Header = () => {
         signOut(auth);
     }
     return (
-        <header id='header'>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
                 <Container className=''>
                     <Navbar.Brand > 
                         <Customlink to={'/'}> <img width={150} src='https://res.cloudinary.com/tusar/image/upload/v1650267511/travel/touraholic_y37ysx.png' alt="" /> </Customlink>
@@ -24,7 +24,7 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Customlink to={'/'}>Home</Customlink>
                             <Customlink to={'/tour-packages'}>Tour Packages</Customlink>
-                            <Customlink to={'/blog'}>Blog</Customlink>
+                            <Customlink to={'/blogs'}>Blogs</Customlink>
                             <Customlink to={'/about'}>About</Customlink>
 
                         </Nav>
@@ -48,7 +48,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </header>
+        
     );
 };
 

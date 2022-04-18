@@ -14,8 +14,6 @@ const Blog = () => {
                         <Col md={12}>
                             <div className="question-body my-3 p-3">
                                 <h4>Difference between authorization and authentication ?</h4>
-                               
-
 
                                 <table class="table">
                                     <thead>

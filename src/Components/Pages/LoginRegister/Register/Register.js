@@ -46,12 +46,14 @@ const Register = () => {
         }
 
     }
+    
     const handleEmail = (event) => {
         let getEmail = event.target.value;
         setEmail(getEmail);
 
 
     }
+    // Password length check 
     const handlePassword = (event) => {
         let getPassword = event.target.value;
         if (getPassword.length > 5) {
@@ -66,6 +68,7 @@ const Register = () => {
 
 
     }
+    // password match 
     const handleRePassword = (event) => {
         let getRePassword = event.target.value;
         if (getRePassword === password) {
@@ -82,9 +85,12 @@ const Register = () => {
         }
 
     }
+
+    // Redirecting user to his prevoius route 
     if (user) {
         navigate(from, { replace: true })
     }
+    // Showing loading component  
     if ( loading || updating) {
         return (<Loading></Loading>);
     }
@@ -95,7 +101,7 @@ const Register = () => {
         toast.error(updateError.message);
     }
 
-    // ----------- 
+    // ----------- SIGN UP PROCESS--------------------
     const handleSignup = async (event) => {
         event.preventDefault();
         
@@ -158,6 +164,8 @@ const Register = () => {
                             </div>
                         </Col>
                     </Row>
+                    {/* ==========TOAST COMPONENT ============  */}
+
                     <ToastContainer
                         position="bottom-right"
                         autoClose={5000}

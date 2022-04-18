@@ -10,7 +10,7 @@ const About = () => {
                 <div className="pt-5">
                     <Row>
                         <Col md={5}>
-                            <div className="image">
+                            <div className="my-image">
                                 <img className='img-fluid' src="https://arifuzzamantusar.com/wp-content/uploads/2021/04/IMG-20191208-WA0045-01-731x1024.png" alt="" />
                             </div>
                         </Col>
