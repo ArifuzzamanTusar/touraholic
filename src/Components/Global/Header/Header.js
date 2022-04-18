@@ -1,4 +1,3 @@
-import React from 'react';
 import './Header.css'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Customlink from '../../utilities/Customlink';
@@ -8,6 +7,7 @@ import { signOut } from 'firebase/auth';
 
 const Header = () => {
     const [user] = useAuthState(auth);
+    const username = user?.displayName;
 
     const handleSignOut = () => {
         signOut(auth);
@@ -29,7 +29,7 @@ const Header = () => {
                         <Nav>
                             {
                                 user ?
-                                    <NavDropdown title={user.displayName} id="collasible-nav-dropdown">
+                                    <NavDropdown title={username ? username : "Welcome!"} id="collasible-nav-dropdown">
 
                                         <NavDropdown.Item href="#action/3.2">My Bookings</NavDropdown.Item>
                                         <NavDropdown.Divider />

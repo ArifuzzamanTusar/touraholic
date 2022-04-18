@@ -5,21 +5,21 @@ import auth from '../../../../firebase.init';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const SocialLogin = () => {
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, gloading, gerror] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathname || '/';
     let errormgs;
 
-    if (error) {
+    if (gerror) {
         errormgs=
           <div>
-            <p className='bg-danger text-white p-3'>Error: {error.message}</p>
+            <p className='bg-danger text-white p-3'>Error: {gerror.message}</p>
           </div>;
           document.getElementById('google').style.animation="";
         
       }
-      if (loading) {
+      if (gloading) {
           document.getElementById('google').style.animation="spinner 5s ease-in 0s infinite alternate";
         // return <p>Loading...</p>;
       }

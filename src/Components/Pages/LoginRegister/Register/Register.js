@@ -85,24 +85,24 @@ const Register = () => {
     if (user) {
         navigate(from, { replace: true })
     }
-    if (updating || loading) {
+    if ( loading || updating) {
         return (<Loading></Loading>);
     }
     if (error ) {
             toast.error(error.message);
     }
     if (updateError) {
-        toast.error(updateError.message)
+        toast.error(updateError.message);
     }
 
     // ----------- 
     const handleSignup = async (event) => {
         event.preventDefault();
-        console.log(name);
+        
         if (password.length > 5 && password === rePassword) {
             await createUserWithEmailAndPassword(email, password);
             await updateProfile({ displayName: name });
-            console.log(user.displayName);
+
         }
         else {
             setRegError(
