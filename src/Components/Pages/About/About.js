@@ -21,8 +21,12 @@ const About = () => {
                             <h4>I'm</h4>
                                 <h2>Arifuzzaman Tusar</h2>
                                 <p>
-                                    I want to be a Full Stack Web Developer. Recently I have completed my B.Sc. Engineering in computer science. Now I am focusing on my skill development with react js. I work each and everyday to learn something new related to react. after learning react I will will learn Nodejs and Laravel for backend and VueJs also for frontend. I will all my effort to become a full stack developer as soon as possible.. thank you
+                                    Dream's to became a Perfect Full Stack Developer and The target is to become a frontend developer within 2022. Recently I have completed my B.Sc. Engineering in computer science. And Admitted for M.Sc in CSE. Now, I am fully focusing on my skill development journey with MERN Stack roadmap. I'm practicing each and everyday to learn something new related to Frontend Development. 
                                 </p>
+                                <p>
+                                After Finishing my first goal of being Frontend Developer, I'll move forward to learn Nodejs for backend and day to day programming problem solving. Besides, Iill try to learn advance PHP and Wordpress Hooks, Filter to develop features. From the love for wordpress, Its a wish to build some wordpress plugins with vue.js and fully stacked react web-app and react-native app from wordpress CMS Restful API's. N.b. Im a noob WP developer :P
+                                </p>
+                                <p>Its a big dream holding on my heart to be a successive developer. Pray for my "health"</p>
                             </div>
 
                         </Col>

@@ -1,16 +1,16 @@
 import React from 'react';
 import { Button, Col } from 'react-bootstrap';
-import { FaMapMarkerAlt, FaStar , FaClock, FaUsers } from "react-icons/fa";
+import { FaMapMarkerAlt, FaStar, FaClock, FaUsers } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
 import "./Tourloop.css"
 const Tourloop = (props) => {
-    const { id, name, image, rating, country, short_disc } = props.data;
+    const { id, name, image, rating, country, short_disc, Price,day,night,user } = props.data;
     const navigate = useNavigate();
-    const handleCheckout = (tourid) =>{
-            // console.log(tourid);
-            const url = '/checkout/'+tourid;
-            navigate(url);
+    const handleCheckout = (tourid) => {
+        // console.log(tourid);
+        const url = '/checkout/' + tourid;
+        navigate(url);
     }
 
     return (
@@ -24,15 +24,19 @@ const Tourloop = (props) => {
                 </div>
                 <div className="options col-8 mx-auto">
                     <div className="p-2  d-flex justify-content-between align-items-center">
-                        <div className="person px-2"> <FaClock/>&nbsp; 3 days</div>
+                        <div title={day+" Days and "+night+" Nights"} className="person px-2"> <FaClock />&nbsp; {day}D | {night}N </div>
                         <div className="divide"></div>
-                        <div className="days px-2"> <FaUsers/>&nbsp;  4</div>
+                        <div className="days px-2"> <FaUsers />&nbsp;  {user}</div>
                     </div>
                 </div>
 
                 <div className="tour_body text-center p-3" >
                     <h3 className='py-3'>{name}</h3>
-                    <p> {short_disc }</p>
+                    <p> {short_disc}</p>
+                    <div className="price">
+                        <span className='h4'>{Price} TK /</span>
+                        <small>person</small>
+                    </div>
 
                     <Button onClick={() => handleCheckout(id)} className='book_now col-6 my-3'>Book Now</Button>
                 </div>

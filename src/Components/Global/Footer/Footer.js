@@ -10,8 +10,7 @@ const Footer = () => {
                     <Col md={4}>
                         <div className="footer-container py-2">
                             <h2>  <img width={250} src="https://res.cloudinary.com/tusar/image/upload/v1650267511/travel/touraholic_y37ysx.png" alt="" /></h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quaerat, aperiam similique
-                                nisi vitae ratione aliquam dolore sapiente tenetur perspiciatis?</p>
+                            <p>Touraholic is a trusted and reliable tour and travel agency among all the leading and updated tour-operating services in Bangladesh.</p>
                         </div>
 
                     </Col>
@@ -32,10 +31,16 @@ const Footer = () => {
                     </Col>
                     <Col md={4}>
                         <div className="footer-container py-2">
-                            <h5>QuickLinks</h5>
+                            <h5>Connect</h5>
                             <div className="divider"></div>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quaerat, aperiam similique
-                                nisi vitae ratione aliquam dolore sapiente tenetur perspiciatis?</p>
+                            <div className="lists">
+                                <ul>
+                                    <li>info@touraholic.com</li>
+                                    <li>+8801713 000 000</li>
+                                    <li>touraholic-4138d.web.app</li>
+                                    
+                                </ul>
+                            </div>
                         </div>
                     </Col>
                 </Row>

@@ -13,7 +13,7 @@ const Home = () => {
             <div className="py-5"></div>
             <div className="heading text-center">
                 <h2 className="title">Popular Tour Packages</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, odio!</p>
+                <p>Look deep into nature, and then you will understand everything better. Get your dream travel today</p>
 
             </div>
 

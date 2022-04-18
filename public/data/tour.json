@@ -4,10 +4,12 @@
         "name": "Cox's Bazar",
         "location" : "Chitagong",
         "country" : "Bangladesh",
-        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
-        "Price" : 200,
+        "short_disc": "Explore the largest sandy beachfront",
+        "Price" : 4500,
         "rating":4.9,
-        "duration": "3days 2 night",
+        "day": 3,
+        "night": 2,
+        "user":4,
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157222/travel/coxs-bazar-1_lyuxh5.webp"
     },
     {
@@ -15,9 +17,11 @@
         "name": "Sreemangal",
         "location" : "Chitagong",
         "country" : "Bangladesh",
-        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
-        "Price" : 200,
-        "duration": "3days 2 night",
+        "short_disc": "Know close the tea capital of Bangladesh",
+        "Price" : 2100,
+        "day": 3,
+        "night": 2,
+        "user":5,
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157221/travel/slider-sreemangal_cvp9uj.webp"
     },
     {
@@ -25,9 +29,11 @@
         "name": "Seint Martin",
         "location" : "Chitagong",
         "country" : "Bangladesh",
-        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
-        "Price" : 200,
-        "duration": "3days 2 night",
+        "short_disc": "Beauty of the only coral reef island in Bangladesh",
+        "Price" : 6200,
+        "day": 3,
+        "night": 2,
+        "user":10,
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157221/travel/st-martin_rpnjrc.webp"
     },
     {
@@ -35,9 +41,11 @@
         "name": "Sunderban",
         "location" : "Chitagong",
         "country" : "Bangladesh",
-        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
-        "Price" : 200,
-        "duration": "3days 2 night",
+        "short_disc": "Adventure the largest mangrove forest",
+        "Price" : 3200,
+        "day": 3,
+        "night": 2,
+        "user":6,
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157222/travel/slider-sunderban_ybd01j.webp"
     },
     {
@@ -45,9 +53,11 @@
         "name": "Bali",
         "location" : "Chitagong",
         "country" : "indonesia",
-        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
-        "Price" : 200,
-        "duration": "3days 2 night",
+        "short_disc": "A magical blend of Natural Creature",
+        "Price" : 12500,
+        "day": 3,
+        "night": 2,
+        "user":20,
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157223/travel/bali_p2k5ar.webp"
     },
     {
@@ -55,9 +65,11 @@
         "name": "Nilgiri",
         "location" : "Chitagong",
         "country" : "indonesia",
-        "short_disc": "lorem djkhasdashd hasd ashhailsdghh,ecuikladhsfhkasd hcsd ahksdh",
-        "Price" : 200,
-        "duration": "3days 2 night",
+        "short_disc": "A Touch of Clouds on your hand",
+        "Price" : 6000,
+        "day": 3,
+        "night": 2,
+        "user":4,
         "image": "https://res.cloudinary.com/tusar/image/upload/v1650157222/travel/nilgiri_wtnzup.webp"
     }
 
